@@ -1,0 +1,121 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"lostName": {
+			"bsonType": "string",
+			"title": "寻物物品名称",
+			"description": "寻物物品名称",
+			"trim": "both"
+		},
+		"lostClass": {
+			"bsonType": "string",
+			"title": "寻物物品分类",
+			"description": "寻物物品分类",
+			"defaultValue": "certificates",
+			"enum": [{
+				"text": "证件",
+				"value": "certificates"
+			}, {
+				"text": "服饰",
+				"value": "clothes"
+			}, {
+				"text": "数码",
+				"value": "digital"
+			}, {
+				"text": "日用品",
+				"value": "dailyNecessities"
+			}, {
+				"text": "学习用品",
+				"value": "schoolSupplies"
+			}, {
+				"text": "其他",
+				"value": "other"
+			}]
+		},
+		"lostImg": {
+			"bsonType": "string",
+			"title": "物品图片",
+			"description": "物品图片",
+			"trim": "both"
+		},
+		"lostAddress": {
+			"bsonType": "string",
+			"title": "丢失位置",
+			"description": "丢失位置",
+			"trim": "both"
+		},
+		"lostDetailedAddress": {
+			"bsonType": "string",
+			"title": "详细位置",
+			"description": "详细位置",
+			"trim": "both"
+		},
+		"lostDatetimesingle": {
+			"bsonType": "string",
+			"title": "丢失时间",
+			"description": "丢失时间",
+			"trim": "both"
+		},
+		"lostContactInformationMode": {
+			"bsonType": "string",
+			"title": "联系方式类型",
+			"description": "联系方式类型",
+			"trim": "both"
+		},
+		"lostContactInformation": {
+			"bsonType": "string",
+			"title": "联系方式",
+			"description": "联系方式",
+			"trim": "both"
+		},
+		"isLostAnonymous": {
+			"bsonType": "bool",
+			"title": "是否匿名",
+			"description": "是否匿名"
+		},
+		"LostRemarks": {
+			"bsonType": "string",
+			"title": "寻物备注",
+			"description": "寻物备注",
+			"trim": "both"
+		},
+		"lostState": {
+			"bsonType": "int",
+			"title": "寻物状态",
+			"description": "寻物状态"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "发布人邮箱",
+			"description": "发布人邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "发布时间",
+			"description": "发布时间"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "失物招领",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "select-box": "/components/select-box/select-box"
+  }
+}

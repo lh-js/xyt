@@ -1,0 +1,308 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/schoolNotice/schoolNotice",
+			"style": {
+				"navigationBarTitleText": "校园活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/idleTrading/idleTrading",
+			"style": {
+				"navigationBarTitleText": "二手交易",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mySellOrder/mySellOrder",
+			"style": {
+				"navigationBarTitleText": "我卖的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myBuyOrder/myBuyOrder",
+			"style": {
+				"navigationBarTitleText": "我买的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shoppingcar/shoppingcar",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/idleDetail/idleDetail",
+			"style": {
+				"navigationBarTitleText": "闲置详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myReceiptCode/myReceiptCode",
+			"style": {
+				"navigationBarTitleText": "我的收款码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shippingAddress/shippingAddress",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/addShippingAddress/addShippingAddress",
+			"style": {
+				"navigationBarTitleText": "地址信息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/release/release",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		}, {
+			"path": "pages/selectAddress/selectAddress",
+			"style": {
+				"navigationBarTitleText": "选择地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/uploadAvatar/uploadAvatar",
+			"style": {
+				"navigationBarTitleText": "上传信息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/lostAndFound/lostAndFound",
+			"style": {
+				"navigationBarTitleText": "失物招领",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recruitDetail/recruitDetail",
+			"style": {
+				"navigationBarTitleText": "招领详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/learningforum/learningforum",
+			"style": {
+				"navigationBarTitleText": "学习论坛",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/forumDetail/forumDetail",
+			"style": {
+				"navigationBarTitleText": "论坛详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/forpwd/forpwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/userMessage/userMessage",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/modfiyPWD/modfiyPWD",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/myForum/myForum",
+			"style": {
+				"navigationBarTitleText": "我的论坛",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/lostDetail/lostDetail",
+			"style": {
+				"navigationBarTitleText": "寻物详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myRecruit/myRecruit",
+			"style": {
+				"navigationBarTitleText": "我的招领",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myLost/myLost",
+			"style": {
+				"navigationBarTitleText": "我的寻物",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/idleClassification/idleClassification",
+			"style": {
+				"navigationBarTitleText": "闲置分类",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/myIdle/myIdle",
+			"style": {
+				"navigationBarTitleText": "我的闲置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/buyAfterSales/buyAfterSales",
+			"style": {
+				"navigationBarTitleText": "我买的售后",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sellAfterSales/sellAfterSales",
+			"style": {
+				"navigationBarTitleText": "我卖的售后",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/idleClassDetail/idleClassDetail",
+			"style": {
+				"navigationBarTitleText": "分类详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/boutiqueDigital/boutiqueDigital",
+			"style": {
+				"navigationBarTitleText": "精品数码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/luxuryGoods/luxuryGoods",
+			"style": {
+				"navigationBarTitleText": "奢品捡漏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/trendyClothesShoes/trendyClothesShoes",
+			"style": {
+				"navigationBarTitleText": "潮服潮鞋",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/IdleRanking/IdleRanking",
+			"style": {
+				"navigationBarTitleText": "闲置榜单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/noticeDetail/noticeDetail",
+			"style": {
+				"navigationBarTitleText": "通知详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园通",
+		"navigationBarBackgroundColor": "#0bc99d",
+		"backgroundColor": "#0bc99d"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#0bc99d",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/首页_fill1.png",
+				"selectedIconPath": "static/tabbar/首页_fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"iconPath": "static/tabbar/发布1.png",
+				"selectedIconPath": "static/tabbar/发布.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/shoppingcar/shoppingcar",
+				"iconPath": "static/tabbar/购物车满1.png",
+				"selectedIconPath": "static/tabbar/购物车满.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/我1.png",
+				"selectedIconPath": "static/tabbar/我.png",
+				"text": "我的"
+			}
+		]
+	},
+	// app.json
+	"plugins": {
+		"routePlan": {
+			"version": "1.0.19",
+			"provider": "wx50b5593e81dd937a"
+		}
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"lazyCodeLoading": "requiredComponents"
+}

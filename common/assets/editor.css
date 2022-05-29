@@ -1,0 +1,264 @@
+@import "./iconfont.css";
+
+.container {
+	/* position: absolute;
+	top: 120px;
+	left: 0; */
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+.ql-container {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+	overflow: auto;
+	padding: 20px 10px 20px 10px;
+}
+
+.ql-active {
+	color: #22C704;
+}
+
+.iconfont {
+	display: inline-block;
+	width: 32px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.toolbar {
+	box-sizing: border-box;
+	padding: 10px;
+	height: 130px;
+	width: 100%;
+	/* position: fixed;
+	left: 0;
+	top: 0; */
+	background: #fff;
+	right: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	border-bottom: 1rpx solid #eee;
+}
+
+.editor {
+	max-height: 450rpx;
+	/* border: 1px solid; */
+	overflow: auto
+}
+
+.input {
+	margin: 10px auto;
+	width: 90%;
+	height: 50rpx;
+}
+
+.input input {
+	height: 50rpx;
+	width: 100%;
+}
+
+.input text {
+	line-height: 50rpx;
+}
+
+.forum-title {
+	text-align: center;
+	font-size: 25px;
+}
+
+.classification {
+	margin: 10px auto;
+	width: 90%;
+	height: 50rpx;
+	display: flex;
+}
+
+.classification text {
+	line-height: 50rpx;
+}
+
+.classification .classification-tag {
+	margin-left: 10rpx;
+}
+
+.classification-tag uni-tag {
+	margin-left: 50rpx;
+}
+
+.forum-button {
+	background: #0bc99d;
+	color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+.no-submit {
+	background: #b8b8b8;
+	color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+.forum-cover {
+	/* margin-bottom: 55px;
+	margin-top: 10px; */
+	width: 90%;
+	margin: 10px auto;
+}
+
+.recruit-classification {
+	margin: 10px auto;
+	width: 90%;
+	height: 50rpx;
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid; */
+}
+
+.recruit-classification .classification-tag {
+	margin-left: 10rpx;
+	/* border: 1px solid; */
+	margin-bottom: 20rpx;
+}
+
+.recruit-classification .recruit-classificationContent {
+	/* border: 1px solid; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.recruit-classification text {
+	width: 50px;
+}
+
+.recruit-img {
+	width: 90%;
+	margin: 40px auto;
+	margin-bottom: 10px;
+}
+
+.recruit-address {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.recruit-address text:nth-child(2) {
+	font-size: 10px;
+	color: #8F939C;
+}
+
+.recruit-address .recruit-addressButton {
+	background: #0bc99d;
+	height: 60rpx;
+	width: 60%;
+	border-radius: 60rpx;
+	margin-top: 3px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recruit-address input {
+	height: 50rpx;
+	width: 100%;
+	margin-top: 3px;
+}
+
+.recruit-remarks {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.recruit-remarks .recruit-remarksMode {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+
+.recruit-remarksMode .recruit-remarksPicker {
+	width: 200rpx;
+	height: 50rpx;
+	background: #0bc99d;
+	border-radius: 50rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.recruit-remarksMode .uni-input {
+	/* border-bottom: 1px solid #B8B8B8; */
+	/* color: #B8B8B8; */
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 50rpx;
+}
+
+.recruit-remarks input {
+	height: 50rpx;
+	width: 100%;
+}
+
+.recruit-switch {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.recruit-switch switch {
+	margin-top: 3px;
+}
+
+.scroll-Y {
+	height: 200px;
+	background: #0bc99d;
+}
+
+.recruit-location {
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.recruit-location .recruit-locationContent {
+	display: flex;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.recruit-locationContent .recruit-locationTag {
+	margin-right: 30rpx;
+}
+
+.recruit-time {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.recruit-time .recruit-timeContent {
+	margin-top: 10rpx;
+}

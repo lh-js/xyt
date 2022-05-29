@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.goods-class {
+  margin: 20rpx 20rpx;
+}
+.goods-class .goods-class-two {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.goods-class .goods-class-three {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods-class .goods-class-three .class-three-item {
+  width: 130rpx;
+  height: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.goods-class .goods-class-three .class-three-item .class-three-text {
+  font-size: 10px;
+  color: #999999;
+  font-weight: normal;
+}
+.goods-class .goods-class-three .class-three-item image {
+  width: 130rpx;
+  height: 130rpx;
+}
+.margin-0 {
+  margin-right: 0 !important;
+}
+.margin-r {
+  margin-right: 60rpx;
+}
+

@@ -1,0 +1,156 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"idleName": {
+			"bsonType": "string",
+			"title": "闲置物品名称",
+			"description": "闲置物品名称",
+			"trim": "both"
+		},
+		"oneClass": {
+			"bsonType": "int",
+			"title": "闲置一级分类",
+			"description": "闲置一级分类",
+			"trim": "both"
+		},
+		"twoClass": {
+			"bsonType": "int",
+			"title": "闲置二级分类",
+			"description": "闲置二级分类",
+			"trim": "both"
+		},
+		"threeClass": {
+			"bsonType": "int",
+			"title": "闲置三级分类",
+			"description": "闲置三级分类",
+			"trim": "both"
+		},
+		"quality": {
+			"bsonType": "string",
+			"title": "闲置物品品质",
+			"description": "闲置物品品质",
+			"trim": "both"
+		},
+		"idleDescribe": {
+			"bsonType": "string",
+			"title": "闲置物品描述",
+			"description": "闲置物品描述",
+			"trim": "both"
+		},
+		"idlePrice": {
+			"bsonType": "int",
+			"title": "闲置物品价格",
+			"description": "闲置物品价格",
+			"trim": "both"
+		},
+		"isFreeShipping": {
+			"bsonType": "bool",
+			"title": "是否包邮",
+			"description": "是否包邮",
+			"trim": "both"
+		},
+		"shippingPrice": {
+			"bsonType": "int",
+			"title": "邮费",
+			"description": "邮费",
+			"trim": "both"
+		},
+		"idleImageList": {
+			"bsonType": "array",
+			"title": "闲置图片列表",
+			"description": "闲置图片列表",
+			"arrayType": "file",
+			"multiple": true, // 允许选择多张图片
+			"fileMediaType": "image", // 可选值 all|image|video 默认值为all,表示所有文件，image表示图片类型文件，video表示视频类型文件
+			"fileExtName": "jpg,png", // 扩展名过滤，多个用 , 分割
+			"maxLength": 9 // 限制最大数量
+		},
+		"idleVideo": {
+			"bsonType": "array",
+			"title": "闲置视频",
+			"description": "闲置视频",
+			"arrayType": "file",
+			"multiple": true, // 允许选择多张图片
+			"fileMediaType": "video", // 可选值 all|image|video 默认值为all,表示所有文件，image表示图片类型文件，video表示视频类型文件
+			"fileExtName": "mp4,avi", // 扩展名过滤，多个用 , 分割
+			"maxLength": 1 // 限制最大数量
+		},
+		"deliveryAddress": {
+			"bsonType": "string",
+			"title": "发货地",
+			"description": "发货地",
+			"trim": "both"
+		},
+		"idleContactInformationMode": {
+			"bsonType": "string",
+			"title": "联系方式类别",
+			"description": "联系方式类别",
+			"trim": "both"
+		},
+		"idleContactInformation": {
+			"bsonType": "string",
+			"title": "联系方式",
+			"description": "联系方式",
+			"trim": "both"
+		},
+		"isIdleAnonymous": {
+			"bsonType": "bool",
+			"title": "是否匿名",
+			"description": "是否匿名",
+			"trim": "both"
+		},
+		"idleTradingState": {
+			"bsonType": "int",
+			"title": "闲置物品交易状态",
+			"description": "闲置物品交易状态",
+			"trim": "both"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "发布用户邮箱",
+			"description": "发布用户邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "发布时间",
+			"description": "发布时间",
+			"trim": "both"
+		},
+		"lookCount": {
+			"bsonType": "int",
+			"title": "浏览数",
+			"description": "浏览数",
+			"trim": "both"
+		},
+		"stockCount": {
+			"bsonType": "int",
+			"title": "库存",
+			"description": "库存",
+			"trim": "both"
+		}
+	}
+}

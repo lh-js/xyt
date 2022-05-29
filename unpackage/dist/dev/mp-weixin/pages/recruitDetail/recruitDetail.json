@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "招领详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-title": "/uni_modules/uni-title/components/uni-title/uni-title"
+  }
+}

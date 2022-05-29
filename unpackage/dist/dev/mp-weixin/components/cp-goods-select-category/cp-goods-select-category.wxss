@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.cp-goods-select {
+  display: grid;
+  grid-template-columns: 200rpx auto;
+  height: 100%;
+  width: 100%;
+}
+.cp-goods-select_wrap {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.cp-goods-select-aside {
+  background-color: #fff;
+  height: 100%;
+}
+ .cp-goods-select-category {
+  color: #696E83;
+  background-color: #fff;
+  height: calc(100% - 60rpx);
+  flex: 1;
+  position: relative;
+}
+ .cp-goods-select-category__wrap {
+  position: relative;
+}
+ .cp-goods-select-category-item {
+  width: 100%;
+  padding: 30rpx 47rpx 30rpx 23rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+ .cp-goods-select-category-item.actived {
+  color: #3A3A3A;
+  background-color: #eceff5;
+  position: relative;
+  color: #1660f5;
+}
+ .cp-goods-select-category-item.actived::before {
+  content: "";
+  display: block;
+  width: 6rpx;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #1660f5;
+}
+ .cp-goods-select-category__actions {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+ .cp-goods-select-goods {
+  background-color: transparent;
+  height: 100%;
+  box-sizing: border-box;
+}
+ .cp-goods-select-goods_placeholder {
+  padding-bottom: 70vh;
+}
+ .cp-goods-select-goods__classify {
+  color: #333642;
+  line-height: 70rpx;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #eceff5;
+}
+ .cp-goods-select-goods__classify_text {
+  padding-left: 10rpx;
+}
+ .cp-goods-select-goods__list {
+  padding: 10rpx;
+}
+ .cp-goods-select-goods__list.cloumn-2, .cp-goods-select-goods__list.cloumn-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+ .cp-goods-select-goods .cloumn-2 .goods__item {
+  width: 49%;
+  margin-left: 10rpx;
+}
+ .cp-goods-select-goods .cloumn-2 .goods__item:nth-of-type(2n+1) {
+  margin-left: 0;
+}
+ .cp-goods-select-goods .cloumn-3 .goods__item {
+  width: 32%;
+  margin-left: 10rpx;
+}
+ .cp-goods-select-goods .cloumn-3 .goods__item:nth-of-type(3n+1) {
+  margin-left: 0;
+}
+ .cp-goods-select-goods .goods__item {
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 10rpx;
+}
+ .cp-goods-select-goods .goods__item .sub-info {
+  font-size: 12px;
+  color: #84898f;
+}
+

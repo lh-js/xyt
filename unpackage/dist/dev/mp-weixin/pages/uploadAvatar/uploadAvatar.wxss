@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.upload-Img.data-v-2adfd646 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upload-avatar.data-v-2adfd646 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100rpx;
+  color: #808080;
+  margin-bottom: 50rpx;
+}
+.upload-avatar button.data-v-2adfd646 {
+  width: 100%;
+  margin-top: 10px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+}
+.uni-form-item.data-v-2adfd646 {
+  border-bottom: 1px solid #e3e3e3;
+}
+.uni-form-item .uni-input.data-v-2adfd646 {
+  font-size: 30rpx;
+  color: #808080;
+}
+.check-message.data-v-2adfd646 {
+  margin-top: 30px;
+  width: 90%;
+}
+.check-message-item.data-v-2adfd646 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.check-message-txt.data-v-2adfd646 {
+  height: 100%;
+  color: #808080;
+  font-size: 36rpx;
+}
+.radio.data-v-2adfd646 {
+  margin-left: 15px;
+}
+.submit.data-v-2adfd646 {
+  width: 100%;
+  margin-top: 30px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+}
+

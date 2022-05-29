@@ -1,0 +1,40 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"orderId": {
+			"bsonType": "string",
+			"title": "订单id",
+			"description": "订单id",
+			"trim": "both"
+		},
+		"sellerEmail": {
+			"bsonType": "string",
+			"title": "卖家邮箱",
+			"description": "卖家邮箱",
+			"trim": "both"
+		},
+		"trackingNum": {
+			"bsonType": "string",
+			"title": "快递单号",
+			"description": "快递单号",
+			"trim": "both"
+		},
+		"trackingState": {
+			"bsonType": "int",
+			"title": "快递状态",
+			"description": "快递状态",
+			"trim": "both"
+		}
+	}
+}

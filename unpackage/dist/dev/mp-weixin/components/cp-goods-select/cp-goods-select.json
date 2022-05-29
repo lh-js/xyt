@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cp-goods-select-category": "/components/cp-goods-select-category/cp-goods-select-category"
+  }
+}

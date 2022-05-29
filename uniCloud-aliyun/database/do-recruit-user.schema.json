@@ -1,0 +1,70 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"recruitId": {
+			"bsonType": "string",
+			"title": "招领id",
+			"description": "招领id",
+			"trim": "both"
+		},
+		"recruitUserEmail": {
+			"bsonType": "string",
+			"title": "发布招领人邮箱",
+			"description": "发布招领人邮箱",
+			"trim": "both"
+		},
+		"myUserAvatar": {
+			"bsonType": "string",
+			"title": "认领人头像",
+			"description": "认领人头像",
+			"trim": "both"
+		},
+		"myUserName": {
+			"bsonType": "string",
+			"title": "认领人用户名",
+			"description": "认领人用户名",
+			"trim": "both"
+		},
+		"myEmail": {
+			"bsonType": "string",
+			"title": "认领人邮箱",
+			"description": "认领人邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "申请认领时间",
+			"description": "申请认领时间",
+			"trim": "both"
+		},
+		"doRecruitTime": {
+			"bsonType": "timestamp",
+			"title": "认领时间",
+			"description": "认领时间",
+			"trim": "both"
+		},
+		"doRecruitState": {
+			"bsonType": "int",
+			"title": "认领状态",
+			"description": "认领状态",
+			"trim": "both"
+		},
+		"remark": {
+			"bsonType": "string",
+			"title": "认领备注",
+			"description": "认领备注",
+			"trim": "both"
+		}
+	}
+}

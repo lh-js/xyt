@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "lee-select-city": "/components/lee-select-city/lee-select-city"
+  }
+}

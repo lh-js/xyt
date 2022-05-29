@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "lee-latter-list": "/components/lee-select-city/lee-latter-list"
+  }
+}

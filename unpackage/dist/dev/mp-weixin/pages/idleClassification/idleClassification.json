@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "闲置分类",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cp-good-sselect": "/components/cp-goods-select/cp-goods-select"
+  }
+}

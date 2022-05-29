@@ -1,0 +1,99 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"buyerEmail": {
+			"bsonType": "string",
+			"title": "买家邮箱",
+			"description": "买家邮箱",
+			"trim": "both"
+		},
+		"sellerEmail": {
+			"bsonType": "array",
+			"title": "卖家邮箱列表",
+			"description": "卖家邮箱列表"
+		},
+		"uploadSellerEmail": {
+			"bsonType": "array",
+			"title": "已支付卖家列表",
+			"description": "已支付卖家列表"
+		},
+		"shipEmailList": {
+			"bsonType": "array",
+			"title": "已发货卖家列表",
+			"description": "已发货卖家列表"
+		},
+		"receiptEmailList": {
+			"bsonType": "array",
+			"title": "已收货卖家列表",
+			"description": "已收货卖家列表"
+		},
+		"idleIdList": {
+			"bsonType": "array",
+			"title": "闲置物品列表",
+			"description": "闲置物品列表"
+		},
+		"evaluateIdleIdList": {
+			"bsonType": "array",
+			"title": "已评价闲置物品列表",
+			"description": "已评价闲置物品列表"
+		},
+		"itemNum": {
+			"bsonType": "int",
+			"title": "商品总数",
+			"description": "商品总数",
+			"trim": "both"
+		},
+		"totalPrice": {
+			"bsonType": "double",
+			"title": "商品总价",
+			"description": "商品总价",
+			"trim": "both"
+		},
+		"payWay": {
+			"bsonType": "string",
+			"title": "支付方式",
+			"description": "支付方式",
+			"trim": "both"
+		},
+		"remark": {
+			"bsonType": "string",
+			"title": "订单备注",
+			"description": "订单备注",
+			"trim": "both"
+		},
+		"goodsInfo": {
+			"bsonType": "array",
+			"title": "商品信息列表",
+			"description": "商品信息列表",
+			"trim": "both"
+		},
+		"addressInfo": {
+			"bsonType": "object",
+			"title": "收货信息",
+			"description": "收货信息",
+			"trim": "both"
+		},
+		"orderState": {
+			"bsonType": "int",
+			"title": "订单状态",
+			"description": "订单状态",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "订单生成时间",
+			"description": "订单生成时间"
+		}
+	}
+}

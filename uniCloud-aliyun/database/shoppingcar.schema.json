@@ -1,0 +1,94 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"idleId": {
+			"bsonType": "string",
+			"title": "闲置物品id",
+			"description": "闲置物品id",
+			"trim": "both"
+		},
+		"idleCover": {
+			"bsonType": "string",
+			"title": "闲置物品封面",
+			"description": "闲置物品封面",
+			"trim": "both"
+		},
+		"idleName": {
+			"bsonType": "string",
+			"title": "闲置物品名称",
+			"description": "闲置物品名称",
+			"trim": "both"
+		},
+		"idleDescribe": {
+			"bsonType": "string",
+			"title": "闲置物品描述",
+			"description": "闲置物品描述",
+			"trim": "both"
+		},
+		"quality": {
+			"bsonType": "string",
+			"title": "闲置物品品质",
+			"description": "闲置物品品质",
+			"trim": "both"
+		},
+		"idlePrice": {
+			"bsonType": "int",
+			"title": "闲置物品价格",
+			"description": "闲置物品价格",
+			"trim": "both"
+		},
+		"idleUserEmail": {
+			"bsonType": "string",
+			"title": "闲置物品发布人邮箱",
+			"description": "闲置物品发布人邮箱",
+			"trim": "both"
+		},
+		"idleUserName": {
+			"bsonType": "string",
+			"title": "闲置物品发布人用户名",
+			"description": "闲置物品发布人用户名",
+			"trim": "both"
+		},
+		"myEmail": {
+			"bsonType": "string",
+			"title": "购物车用户邮箱",
+			"description": "购物车用户邮箱",
+			"trim": "both"
+		},
+		"amount": {
+			"bsonType": "string",
+			"title": "数量",
+			"description": "数量",
+			"trim": "both"
+		},
+		"stockCount": {
+			"bsonType": "string",
+			"title": "库存",
+			"description": "库存",
+			"trim": "both"
+		},
+		"isChecked": {
+			"bsonType": "bool",
+			"title": "是否选中",
+			"description": "是否选中",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "加入购物车时间",
+			"description": "加入购物车时间",
+			"trim": "both"
+		}
+	}
+}

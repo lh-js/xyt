@@ -1,0 +1,74 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"orderId": {
+			"bsonType": "string",
+			"title": "订单id",
+			"description": "订单id",
+			"trim": "both"
+		},
+		"idleId": {
+			"bsonType": "string",
+			"title": "闲置物品id",
+			"description": "闲置物品id",
+			"trim": "both"
+		},
+		"buyerEmail": {
+			"bsonType": "string",
+			"title": "买家邮箱",
+			"description": "买家邮箱",
+			"trim": "both"
+		},
+		"idleCover": {
+			"bsonType": "string",
+			"title": "闲置封面",
+			"description": "闲置封面",
+			"trim": "both"
+		},
+		"idleName": {
+			"bsonType": "string",
+			"title": "闲置名称",
+			"description": "闲置名称",
+			"trim": "both"
+		},
+		"idleScore": {
+			"bsonType": "string",
+			"title": "闲置评分",
+			"description": "闲置评分",
+			"trim": "both"
+		},
+		"idleScoreDescription": {
+			"bsonType": "string",
+			"title": "评分描述",
+			"description": "评分描述",
+			"trim": "both"
+		},
+		"idleImageList": {
+			"bsonType": "array",
+			"title": "评价晒图",
+			"description": "评价晒图",
+			"arrayType": "file",
+			"multiple": true, // 允许选择多张图片
+			"fileMediaType": "image", // 可选值 all|image|video 默认值为all,表示所有文件，image表示图片类型文件，video表示视频类型文件
+			"fileExtName": "jpg,png", // 扩展名过滤，多个用 , 分割
+			"maxLength": 3 // 限制最大数量
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "评价时间",
+			"description": "评价时间",
+			"trim": "both"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"forumTitle": {
+			"bsonType": "string",
+			"title": "论坛标题",
+			"description": "论坛标题",
+			"trim": "both"
+		},
+		"forumClass": {
+			"bsonType": "string",
+			"title": "论坛类别",
+			"description": "论坛类别",
+			"defaultValue": "保密",
+			"enum": [{
+					"text": "编程",
+					"value": "programming"
+				}, {
+					"text": "科学",
+					"value": "science"
+				},
+				{
+					"text": "其他",
+					"value": "other"
+				}
+			]
+		},
+		"forumContent": {
+			"bsonType": "string",
+			"title": "论坛内容",
+			"description": "论坛内容",
+			"trim": "both"
+		},
+		"forumCover": {
+			"bsonType": "string",
+			"title": "论坛封面",
+			"description": "论坛封面",
+			"trim": "both"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "论坛封面",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "用户邮箱",
+			"description": "用户邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "发布时间",
+			"description": "发布时间",
+			"trim": "both"
+		},
+		"lookCount": {
+			"bsonType": "int",
+			"title": "浏览数",
+			"description": "浏览数",
+			"trim": "both"
+		}
+	}
+}

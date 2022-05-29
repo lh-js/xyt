@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.latter-list-item {
+  display: flex;
+}
+.latter-list-item:not(:last-child) {
+  margin-bottom: 40rpx;
+}
+.latter-list-latter {
+  width: 60rpx;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 60rpx;
+}
+.plist {
+  flex: 1;
+  width: 0;
+}
+.plist-item {
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plist-item:not(:last-child) {
+  margin-bottom: 30rpx;
+}
+.plist-item.selected {
+  color: #007aff;
+}
+.plist-item:not(.selected) > .select-icon {
+  display: none;
+}
+

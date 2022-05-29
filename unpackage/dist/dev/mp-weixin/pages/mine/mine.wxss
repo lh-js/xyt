@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.page.data-v-dcbcfe34 {
+  position: relative;
+  height: 100vh;
+  background-color: #f2f2f2;
+  -webkit-animation: text-data-v-dcbcfe34 linear 0.4s;
+          animation: text-data-v-dcbcfe34 linear 0.4s;
+}
+.background-view.data-v-dcbcfe34 {
+  height: 30%;
+  background-color: #0bc99d;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+@-webkit-keyframes text-data-v-dcbcfe34 {
+0% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+}
+100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+}
+@keyframes text-data-v-dcbcfe34 {
+0% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+}
+100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+}
+.userInfo-box.data-v-dcbcfe34 {
+  top: 4%;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  height: 120rpx;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.userInfo-box .userImage.data-v-dcbcfe34 {
+  width: 20%;
+  height: 100%;
+  border-radius: 50%;
+}
+.userInfo-box .user-text.data-v-dcbcfe34 {
+  width: 70%;
+  color: white;
+  font-size: 1em;
+}
+.userInfo-box .user-text .view-item.data-v-dcbcfe34 {
+  margin-left: 20rpx;
+  line-height: 2;
+}
+.userInfo-box .config.data-v-dcbcfe34 {
+  width: 10%;
+  overflow: hidden;
+  height: 100%;
+}
+.userInfo-box .config image.data-v-dcbcfe34 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.user-info-card.data-v-dcbcfe34 {
+  top: 18%;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30rpx;
+  background-color: white;
+  border-radius: 40rpx;
+  box-shadow: 0px 1px 2px #e3e3e3;
+}
+.user-info-card .item.data-v-dcbcfe34 {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.user-info-card .item .item-1.data-v-dcbcfe34 {
+  color: #0bc99d;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+.user-info-card .item .item-2.data-v-dcbcfe34 {
+  text-align: center;
+  width: 100%;
+  margin-top: 10rpx;
+}
+.text-overflow.data-v-dcbcfe34 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-box.data-v-dcbcfe34 {
+  padding: 30rpx;
+}
+.list-box .box.data-v-dcbcfe34 {
+  background-color: white;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rpx;
+  box-shadow: 0px 1px 2px #e3e3e3;
+}
+.list-box .box .box-title.data-v-dcbcfe34 {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d8d8d8;
+}
+.list-box .box .box-title .text1.data-v-dcbcfe34 {
+  font-size: 1.3em;
+  text-indent: 1em;
+}
+.list-box .box .box-title .text2.data-v-dcbcfe34 {
+  color: #d8d8d8;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.list-box .box .box-title .text2 image.data-v-dcbcfe34 {
+  margin-left: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.list-box .box .box-content.data-v-dcbcfe34 {
+  height: 60%;
+  padding: 20rpx 40rpx 40rpx 40rpx;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.list-box .box .box-content .item.data-v-dcbcfe34 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+  height: 100%;
+}
+.list-box .box .box-content .item .item1.data-v-dcbcfe34 {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+.list-box .box .box-content .item .item1 image.data-v-dcbcfe34 {
+  width: 65rpx;
+  height: 65rpx;
+}
+.list-box .box .box-content .item .item2.data-v-dcbcfe34 {
+  height: 50%;
+  width: 100%;
+  font-size: 0.9em;
+}
+.flex-center.data-v-dcbcfe34 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unlogin .unlogin-txt.data-v-dcbcfe34 {
+  color: #FFFFFF;
+}
+.unlogin.data-v-dcbcfe34 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -30rpx;
+}
+.unlogin .tologin.data-v-dcbcfe34 {
+  width: 300rpx;
+  height: 60rpx;
+  background: linear-gradient(to right, #ff8f77, #ffaa00);
+  border-radius: 60rpx;
+  margin-top: 10rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60rpx;
+}
+

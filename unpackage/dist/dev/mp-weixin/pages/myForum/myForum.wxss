@@ -1,0 +1,101 @@
+.search-header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #FFFFFF;
+}
+.learn-sort {
+	width: 94%;
+	min-height: 300rpx;
+	background: #ffffff;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	margin: 10px auto;
+}
+.sort-title {
+	display: flex;
+	justify-content: space-between;
+	color: #FFFFFF;
+	padding: 0 10px;
+	border-bottom: 1px solid;
+	font-size: 15px;
+	background: linear-gradient(to right, #ff8f77, #fe519f);
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.learn-sort .learn-sort-item {
+	height: 50rpx;
+	width: 90%;
+	/* border: 1px solid; */
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto;
+	color: #000000;
+	line-height: 50rpx;
+}
+.learn-sort-item image {
+	width: 50rpx;
+	/* border: 1px solid; */
+	margin-right: 5px;
+}
+.learn-sort-item .learn-sort-text {
+	overflow: hidden;
+	/*超出部分隐藏*/
+
+	text-overflow: ellipsis;
+	/* 超出部分显示省略号 */
+
+	white-space: nowrap;
+	/*规定段落中的文本不进行换行 */
+
+	width: 450rpx;
+	/*需要配合宽度来使用*/
+}
+.learn-sort-item .item-hot {
+	font-size: 12px;
+	color: #000000;
+}
+.forum-content {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20rpx;
+}
+.forum-box {
+	width: 90%;
+	border-bottom: 1px solid #caccce;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px 5px;
+	border: 1px solid #A9ABB0;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	background: #FFFFFF;
+}
+.forum-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.forum-item .forum-item-title {
+	font-size: 14px;
+}
+.forum-item image {
+	width: 150rpx;
+	height: 150rpx;
+}
+.forum-state {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid; */
+	font-size: 12px;
+	color: #8F939C;
+}
+

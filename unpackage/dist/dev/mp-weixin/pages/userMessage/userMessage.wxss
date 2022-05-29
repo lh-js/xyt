@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.upload-Img.data-v-2f2bfa00 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upload-avatar.data-v-2f2bfa00 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #808080;
+}
+.upload-avatar image.data-v-2f2bfa00 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #75757a;
+  border-radius: 100px;
+}
+.upload-avatar button.data-v-2f2bfa00 {
+  width: 100%;
+  margin-top: 10px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+}
+.uni-form-item.data-v-2f2bfa00 {
+  border-bottom: 1px solid #e3e3e3;
+}
+.uni-form-item .uni-input.data-v-2f2bfa00 {
+  font-size: 30rpx;
+  color: #808080;
+}
+.check-message.data-v-2f2bfa00 {
+  margin-top: 30px;
+  width: 90%;
+}
+.check-message-item.data-v-2f2bfa00 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.check-message-txt.data-v-2f2bfa00 {
+  height: 100%;
+  color: #808080;
+  font-size: 36rpx;
+}
+.radio.data-v-2f2bfa00 {
+  margin-left: 15px;
+}
+.submit.data-v-2f2bfa00 {
+  width: 100%;
+  margin-top: 30px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+}
+

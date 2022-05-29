@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.content.data-v-c6a1f2cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #edfff8;
+}
+.t-login.data-v-c6a1f2cc {
+  width: 580rpx;
+  padding: 55rpx;
+  margin: 0 auto;
+  font-size: 28rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.15);
+  z-index: 9;
+}
+.uni-form-item.data-v-c6a1f2cc {
+  margin-bottom: 40rpx;
+  padding: 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.uni-form-item .uni-input.data-v-c6a1f2cc {
+  font-size: 30rpx;
+  padding: 7px 0;
+}
+.column-with-btn.data-v-c6a1f2cc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-with-btn button.data-v-c6a1f2cc {
+  font-size: 24rpx;
+  margin: 0;
+  width: 180rpx;
+  text-align: center;
+}
+.column-with-btn button.data-v-c6a1f2cc:after {
+  border: none;
+}
+.column-with-btn button.active.data-v-c6a1f2cc {
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+  color: #fff;
+}
+.img-captcha.data-v-c6a1f2cc {
+  width: 150rpx;
+  height: 60rpx;
+}
+button[type="primary"].data-v-c6a1f2cc {
+  background: linear-gradient(to right, #ff8f77, #fe519f);
+  border-radius: 0;
+  font-size: 34rpx;
+  margin-top: 60rpx;
+}
+.text-reset.data-v-c6a1f2cc {
+  text-align: center;
+  margin-bottom: 100rpx;
+  font-size: 36rpx;
+}
+

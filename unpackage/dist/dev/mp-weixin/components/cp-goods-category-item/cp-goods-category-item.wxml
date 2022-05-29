@@ -1,0 +1,1 @@
+<view class="{{['cp-goods-select-category-item','',(actived)?'actived':'']}}" id="scroll-item" data-event-opts="{{[['tap',[['handelClick']]]]}}" catchtap="__e"><block wx:if="{{$slots.default}}"><slot></slot></block><block wx:else>{{''+label+''}}</block></view>

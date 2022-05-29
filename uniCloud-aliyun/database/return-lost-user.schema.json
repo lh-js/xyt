@@ -1,0 +1,70 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"lostId": {
+			"bsonType": "string",
+			"title": "寻物id",
+			"description": "寻物id",
+			"trim": "both"
+		},
+		"lostUserEmail": {
+			"bsonType": "string",
+			"title": "发布寻物人邮箱",
+			"description": "发布寻物人邮箱",
+			"trim": "both"
+		},
+		"myUserAvatar": {
+			"bsonType": "string",
+			"title": "归还人头像",
+			"description": "归还人头像",
+			"trim": "both"
+		},
+		"myUserName": {
+			"bsonType": "string",
+			"title": "归还人用户名",
+			"description": "归还人用户名",
+			"trim": "both"
+		},
+		"myEmail": {
+			"bsonType": "string",
+			"title": "归还人邮箱",
+			"description": "归还人邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "申请认领时间",
+			"description": "申请认领时间",
+			"trim": "both"
+		},
+		"returnLostTime": {
+			"bsonType": "timestamp",
+			"title": "归还时间",
+			"description": "归还时间",
+			"trim": "both"
+		},
+		"returnLostState": {
+			"bsonType": "int",
+			"title": "归还状态",
+			"description": "归还状态",
+			"trim": "both"
+		},
+		"remark": {
+			"bsonType": "string",
+			"title": "归还备注",
+			"description": "归还备注",
+			"trim": "both"
+		}
+	}
+}

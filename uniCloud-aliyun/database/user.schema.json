@@ -1,0 +1,75 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（用户 ID），系统自动生成"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "邮箱",
+			"description": "邮箱，不允许重复",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"pwd": {
+			"bsonType": "string",
+			"title": "密码",
+			"description": "密码，加密存储",
+			"trim": "both"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"sex": {
+			"bsonType": "string",
+			"title": "性别",
+			"description": "用户性别：男 女",
+			"defaultValue": "保密",
+			"enum": [{
+				"text": "男",
+				"value": "男"
+			}, {
+				"text": "女",
+				"value": "女"
+			}]
+		},
+		"school": {
+			"bsonType": "string",
+			"title": "学校",
+			"description": "学校"
+		},
+		"city": {
+			"bsonType": "string",
+			"title": "住址",
+			"description": "住址",
+			"trim": "both"
+		},
+		"homeDetail": {
+			"bsonType": "string",
+			"title": "详细地址",
+			"description": "详细地址",
+			"trim": "both"
+		},
+		"autograph": {
+			"bsonType": "string",
+			"title": "个性签名",
+			"description": "个性签名",
+			"trim": "both"
+		}
+	}
+}

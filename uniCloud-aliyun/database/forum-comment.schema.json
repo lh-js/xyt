@@ -1,0 +1,88 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"commentContent": {
+			"bsonType": "string",
+			"title": "论坛评论",
+			"description": "论坛评论",
+			"trim": "both"
+		},
+		"commentImg": {
+			"bsonType": "string",
+			"title": "论坛评论图片",
+			"description": "论坛评论图片",
+			"trim": "both"
+		},
+		"applyUserComment": {
+			"bsonType": "string",
+			"title": "回复用户评论",
+			"description": "回复用户评论",
+			"trim": "both"
+		},
+		"userCommentImg": {
+			"bsonType": "string",
+			"title": "回复用户评论图片",
+			"description": "回复用户评论图片",
+			"trim": "both"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "评论用户邮箱",
+			"description": "评论用户邮箱",
+			"trim": "both"
+		},
+		"forumId": {
+			"bsonType": "string",
+			"title": "论坛id",
+			"description": "论坛id",
+			"trim": "both"
+		},
+		"beApplyUserEmail": {
+			"bsonType": "string",
+			"title": "被回复用户邮箱",
+			"description": "被回复用户邮箱",
+			"trim": "both"
+		},
+		"beApplyUsername": {
+			"bsonType": "string",
+			"title": "被回复用户名",
+			"description": "被回复用户名",
+			"trim": "both"
+		},
+		"beApplyCommentid": {
+			"bsonType": "string",
+			"title": "被回复评论id",
+			"description": "被回复评论id",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "评论时间",
+			"description": "评论时间",
+			"trim": "both"
+		}
+	}
+}

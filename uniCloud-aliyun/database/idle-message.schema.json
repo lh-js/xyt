@@ -1,0 +1,76 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"messageContent": {
+			"bsonType": "string",
+			"title": "留言内容",
+			"description": "留言内容",
+			"trim": "both"
+		},
+		"applyUserMessage": {
+			"bsonType": "string",
+			"title": "回复用户内容",
+			"description": "回复用户内容",
+			"trim": "both"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "留言用户邮箱",
+			"description": "发布用户邮箱",
+			"trim": "both"
+		},
+		"idleId": {
+			"bsonType": "string",
+			"title": "闲置物品id",
+			"description": "闲置物品id",
+			"trim": "both"
+		},
+		"beApplyUserEmail": {
+			"bsonType": "string",
+			"title": "被回复用户邮箱",
+			"description": "被回复用户邮箱",
+			"trim": "both"
+		},
+		"beApplyUserName": {
+			"bsonType": "string",
+			"title": "被回复用户名",
+			"description": "被回复用户名",
+			"trim": "both"
+		},
+		"beApplyMessageId": {
+			"bsonType": "string",
+			"title": "被回复留言id",
+			"description": "被回复留言id",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "留言时间",
+			"description": "留言时间",
+			"trim": "both"
+		}
+	}
+}

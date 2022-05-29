@@ -1,0 +1,140 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"recruitName": {
+			"bsonType": "string",
+			"title": "招领物品名称",
+			"description": "招领物品名称",
+			"trim": "both"
+		},
+		"recruitClass": {
+			"bsonType": "string",
+			"title": "招领物品分类",
+			"description": "招领物品分类",
+			"defaultValue": "certificates",
+			"enum": [{
+				"text": "证件",
+				"value": "certificates"
+			}, {
+				"text": "服饰",
+				"value": "clothes"
+			}, {
+				"text": "数码",
+				"value": "digital"
+			}, {
+				"text": "日用品",
+				"value": "dailyNecessities"
+			}, {
+				"text": "学习用品",
+				"value": "schoolSupplies"
+			}, {
+				"text": "其他",
+				"value": "other"
+			}]
+		},
+		"recruitImg": {
+			"bsonType": "string",
+			"title": "物品图片",
+			"description": "物品图片",
+			"trim": "both"
+		},
+		"address": {
+			"bsonType": "string",
+			"title": "拾到位置",
+			"description": "拾到位置",
+			"trim": "both"
+		},
+		"detailedAddress": {
+			"bsonType": "string",
+			"title": "详细位置",
+			"description": "详细位置",
+			"trim": "both"
+		},
+		"datetimesingle": {
+			"bsonType": "string",
+			"title": "拾到时间",
+			"description": "拾到时间",
+			"trim": "both"
+		},
+		"contactInformationMode": {
+			"bsonType": "string",
+			"title": "联系方式类型",
+			"description": "联系方式类型",
+			"trim": "both"
+		},
+		"contactInformation": {
+			"bsonType": "string",
+			"title": "联系方式",
+			"description": "联系方式",
+			"trim": "both"
+		},
+		"isRecruitAnonymous": {
+			"bsonType": "bool",
+			"title": "是否匿名",
+			"description": "是否匿名"
+		},
+		"recruitRemarks": {
+			"bsonType": "string",
+			"title": "招领备注",
+			"description": "招领备注",
+			"trim": "both"
+		},
+		"recruitLocation": {
+			"bsonType": "string",
+			"title": "物品现在位置",
+			"description": "物品现在位置",
+			"defaultValue": "selfCustody",
+			"enum": [{
+				"text": "本人代管",
+				"value": "selfCustody"
+			}, {
+				"text": "失去处",
+				"value": "situ"
+			}, {
+				"text": "代管处",
+				"value": "escrowOffice"
+			}, {
+				"text": "其他",
+				"value": "other"
+			}]
+		},
+		"recruitState": {
+			"bsonType": "int",
+			"title": "招领状态",
+			"description": "招领状态"
+		},
+		"userAvatar": {
+			"bsonType": "string",
+			"title": "用户头像",
+			"description": "用户头像",
+			"trim": "both"
+		},
+		"userName": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "发布人邮箱",
+			"description": "发布人邮箱",
+			"trim": "both"
+		},
+		"submitTime": {
+			"bsonType": "timestamp",
+			"title": "发布时间",
+			"description": "发布时间"
+		}
+	}
+}

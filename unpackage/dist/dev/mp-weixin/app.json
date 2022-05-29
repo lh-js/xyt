@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/schoolNotice/schoolNotice",
+    "pages/mine/mine",
+    "pages/idleTrading/idleTrading",
+    "pages/mySellOrder/mySellOrder",
+    "pages/myBuyOrder/myBuyOrder",
+    "pages/shoppingcar/shoppingcar",
+    "pages/idleDetail/idleDetail",
+    "pages/myReceiptCode/myReceiptCode",
+    "pages/shippingAddress/shippingAddress",
+    "pages/addShippingAddress/addShippingAddress",
+    "pages/release/release",
+    "pages/selectAddress/selectAddress",
+    "pages/uploadAvatar/uploadAvatar",
+    "pages/lostAndFound/lostAndFound",
+    "pages/recruitDetail/recruitDetail",
+    "pages/learningforum/learningforum",
+    "pages/forumDetail/forumDetail",
+    "pages/forpwd/forpwd",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/userMessage/userMessage",
+    "pages/modfiyPWD/modfiyPWD",
+    "pages/myForum/myForum",
+    "pages/lostDetail/lostDetail",
+    "pages/myRecruit/myRecruit",
+    "pages/myLost/myLost",
+    "pages/idleClassification/idleClassification",
+    "pages/myIdle/myIdle",
+    "pages/orderDetail/orderDetail",
+    "pages/buyAfterSales/buyAfterSales",
+    "pages/sellAfterSales/sellAfterSales",
+    "pages/idleClassDetail/idleClassDetail",
+    "pages/boutiqueDigital/boutiqueDigital",
+    "pages/luxuryGoods/luxuryGoods",
+    "pages/trendyClothesShoes/trendyClothesShoes",
+    "pages/IdleRanking/IdleRanking",
+    "pages/noticeDetail/noticeDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园通",
+    "navigationBarBackgroundColor": "#0bc99d",
+    "backgroundColor": "#0bc99d"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#0bc99d",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/首页_fill1.png",
+        "selectedIconPath": "static/tabbar/首页_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "iconPath": "static/tabbar/发布1.png",
+        "selectedIconPath": "static/tabbar/发布.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shoppingcar",
+        "iconPath": "static/tabbar/购物车满1.png",
+        "selectedIconPath": "static/tabbar/购物车满.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/我1.png",
+        "selectedIconPath": "static/tabbar/我.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.19",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

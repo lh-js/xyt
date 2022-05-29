@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .input {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.content .input uni-easyinput {
+  width: 80%;
+  background: #F8F8F8;
+}
+.content .select-address {
+  width: 80%;
+  height: 80rpx;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #D8D8D8;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.content .button {
+  width: 90%;
+  height: 100rpx;
+  border-radius: 100rpx;
+  background: #0bc99d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+

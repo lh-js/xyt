@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "通知详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-title": "/uni_modules/uni-title/components/uni-title/uni-title",
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
+  }
+}

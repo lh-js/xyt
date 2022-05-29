@@ -1,0 +1,1 @@
+<lee-select-city vue-id="2ba134e4-1" currentPosition="{{currentPosition}}" data-event-opts="{{[['^getNewPosition',[['getNewPosition']]],['^submit',[['submitHandler']]],['^selectCurrent',[['useCurrentPosition']]]]}}" bind:getNewPosition="__e" bind:submit="__e" bind:selectCurrent="__e" bind:__l="__l"></lee-select-city>

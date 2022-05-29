@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.idle-detail-user.data-v-98961bb4 {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #DCDFE6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.idle-detail-user .idle-tx-name.data-v-98961bb4 {
+  display: flex;
+  align-items: center;
+}
+.idle-detail-user .idle-tx-name .idle-user-name.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rpx;
+}
+.idle-detail-user .idle-tx-name .idle-user-name text.data-v-98961bb4:nth-child(1) {
+  font-weight: bold;
+}
+.idle-detail-user .idle-tx-name .idle-user-name text.data-v-98961bb4:nth-child(2) {
+  color: #999999;
+  font-size: 13px;
+}
+.idle-detail-user .idle-tx-name image.data-v-98961bb4 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+}
+.idle-detail-user .idle-user-button.data-v-98961bb4 {
+  width: 120rpx;
+  height: 50rpx;
+  background: #0bc99d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border-radius: 50rpx;
+  line-height: 50rpx;
+}
+.idle-detail-content.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+}
+.idle-detail-content .idle-detail-price.data-v-98961bb4 {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.idle-detail-content .idle-detail-price .idle-idle-tag.data-v-98961bb4 {
+  width: 70rpx;
+  height: 30rpx;
+  background: #ff0000;
+  border-radius: 6rpx;
+  font-size: 10px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rpx;
+  margin-right: 5rpx;
+}
+.idle-detail-content .idle-detail-price .idle-price-tag.data-v-98961bb4 {
+  width: 50rpx;
+  height: 30rpx;
+  background: #0caeff;
+  border-radius: 6rpx;
+  font-size: 10px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rpx;
+  margin-left: 10rpx;
+}
+.idle-detail-content .idle-detail-price text.data-v-98961bb4 {
+  color: #fe4543;
+  font-size: 14px;
+  font-weight: bold;
+}
+.idle-detail-content .idle-detail-title.data-v-98961bb4 {
+  margin-top: 20rpx;
+  font-weight: bold;
+}
+.idle-detail-content .idle-detail-describe.data-v-98961bb4 {
+  margin-top: 20rpx;
+  background: #FFFFFF;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.idle-detail-content .idle-detail-video.data-v-98961bb4 {
+  width: 100%;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.idle-detail-content .idle-detail-video video.data-v-98961bb4 {
+  width: 100%;
+  border-radius: 20rpx;
+}
+.idle-detail-content .idle-detail-browse.data-v-98961bb4 {
+  width: 100%;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 20rpx;
+}
+.idle-detail-sayprice.data-v-98961bb4 {
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.idle-detail-sayprice .idle-sayprice-list.data-v-98961bb4 {
+  width: 100%;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item.data-v-98961bb4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rpx;
+  border-radius: 10rpx;
+  padding: 5rpx 10rpx;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-user.data-v-98961bb4 {
+  display: flex;
+  align-items: center;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-user .sayprice-user-name.data-v-98961bb4 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-user .sayprice-user-name text.data-v-98961bb4:nth-child(1) {
+  color: #999999;
+  font-size: 13px;
+  font-weight: normal;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-user .sayprice-user-name text.data-v-98961bb4:nth-child(2) {
+  font-weight: normal;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-user image.data-v-98961bb4 {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-price.data-v-98961bb4 {
+  display: flex;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-price .idle-sayprice-remark.data-v-98961bb4 {
+  font-weight: normal;
+  font-size: 15px;
+}
+.idle-detail-sayprice .idle-sayprice-list .idle-sayprice-item .idle-sayprice-price text.data-v-98961bb4 {
+  color: #fe4543;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.idle-detail-evaluate.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+.idle-detail-evaluate .idle-evaluate-list.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10rpx;
+  background: #FFFFFF;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+}
+.idle-detail-evaluate .idle-evaluate-list .idle-evaluate-item.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #EEEEEE;
+}
+.idle-detail-evaluate text.data-v-98961bb4:nth-child(1) {
+  font-weight: bold;
+}
+.idle-detail-message.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+.idle-detail-message .idle-message-list.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10rpx;
+  background: #FFFFFF;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+}
+.idle-detail-message .idle-message-list .idle-message-item.data-v-98961bb4 {
+  display: flex;
+  margin-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #EEEEEE;
+}
+.idle-detail-message .idle-message-list .idle-message-item .message-username-content.data-v-98961bb4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+  width: 100%;
+}
+.idle-detail-message .idle-message-list .idle-message-item .message-username-content .message-username-time.data-v-98961bb4 {
+  color: #999999;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.idle-detail-message .idle-message-list .idle-message-item .message-username-content text.data-v-98961bb4:nth-child(2) {
+  font-size: 14px;
+  margin-top: 5rpx;
+}
+.idle-detail-message .idle-message-list .idle-message-item image.data-v-98961bb4 {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+}
+.idle-detail-message text.data-v-98961bb4:nth-child(1) {
+  font-weight: bold;
+}
+.idle-detail-nav.data-v-98961bb4 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+.idle-user-connect.data-v-98961bb4 {
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+}
+.idle-user-connect .user-connect-button.data-v-98961bb4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 500rpx;
+  height: 100rpx;
+  background: #0bc99d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border-radius: 100rpx;
+}
+.idle-user-message.data-v-98961bb4 {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.idle-user-message .user-message-content.data-v-98961bb4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.idle-user-message .user-message-content .user-message-button.data-v-98961bb4 {
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+  background: #0bc99d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-left: 10rpx;
+}
+.idle-user-message .user-message-content uni-easyinput.data-v-98961bb4 {
+  width: 80%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+
